@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Active Tracker</string>
+	<string name="start">Start Tracking</string>
+	<string name="stop">Stop Tracking</string>
+	<string name="service_name">Active Tracker</string>
+	<string name="local_service_started">Active Tracker is running</string>
+	<string name="local_service_stopped">Active Tracker has stopped</string>
+	<string name="debug">Show debug info</string>
+	<string name="trackMeInfo">Select the event, type your code and start tracking.</string>
+	<string name="trackMe">Active Tracker</string>
+	<string name="missingData">Select an event, then type a valid event code (1 - 999)!</string>
+	<string name="gpsOffTitle">GPS is Off!</string>
+	<string name="imeStart">Start</string>
+	<string name="statusPreffix">Status: </string>
+	<string name="statusWaitingForEvents">Waiting for events list...</string>
+	<string name="notification_id">Notification id</string>
+	<string name="statusWaitingForLocation">Waiting for location...</string>
+	<string name="statusTrackedLocation">Got location</string>
+	<string name="noDataConnection">Connection error, check your data connection and retry!</string>
+	<string name="statusSentLastKnown">Sent last known location. Waiting for accurate location...</string>
+	<string name="gpsOffMessage">Active Tracker requires GPS. Please enable GPS! </string>
+	<string name="statusBatteryLow">Battery is low, service stopped!</string>
+	<string name="reloadEvents">If the events did not load, due to network problems, long click the Start tracking button.</string>
+</resources>

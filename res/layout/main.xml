@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="fill_parent"
+    a:gravity="center"
+    a:orientation="vertical" >
+
+    <TextView
+        a:id="@+id/textView1"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:text="@string/trackMe"
+        a:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        a:id="@+id/imageView1"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:src="@drawable/logo" />
+
+    <TextView
+        a:id="@+id/textView2"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:gravity="center"
+        a:text="@string/trackMeInfo" />
+
+    <Spinner
+        a:id="@+id/events"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content" />
+
+    <EditText
+        a:id="@+id/trackCode"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:inputType="number"
+        a:singleLine="true"
+        a:imeOptions="actionGo">
+        <requestFocus />
+    </EditText>
+
+    <ToggleButton
+        a:id="@+id/trackButton"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:textOff="@string/start"
+        a:textOn="@string/stop" />
+
+    <TextView
+        a:id="@+id/reloadEvents"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_gravity="center"
+        a:gravity="center"
+        a:text="@string/reloadEvents"
+        a:textAppearance="?android:attr/textAppearanceSmall"
+        a:textStyle="italic" />
+
+    <CheckBox
+        a:id="@+id/toggleDebug"
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:text="@string/debug"
+        a:visibility="invisible" />
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+<div style="margin-top: 2px; margin-bottom: 2px; width: 550px; font-family: Arial,Helvetica,sans-serif; font-size: 9px; color: #535353; background-color: #ffffff; border: 2px solid #4d4d4f; font-style: normal; text-align: right; padding: 0px; padding-bottom: 3px !important;"><iframe src="http://www.len.ro/activeTracker/widget.py?eventId=8" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="550" height="515"></iframe><br />
+<a href="http://www.len.ro/activeTracker/widget.py?eventId=8">Open ActiveTracker in new window.</a></div>

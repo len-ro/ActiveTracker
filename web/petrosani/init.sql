@@ -1,0 +1,3 @@
+insert into event(event_index, name, code, active, refresh_interval, kml_file, map_type, start_time, end_time) values (1, 'Petrosani Bike Challenge', 'petrosaniMTB', 't', 10, 'http://www.len.ro/activeTracker/petrosani/petrosani.kml', 'HYBRID', '2013-09-29 11:20', '2013-09-29 17:00');
+
+update event set view_bounds = '45.32199576964485,23.222867818603504,45.48350137925343,23.622152181396473' where id = 27;

@@ -1,0 +1,3 @@
+insert into event(event_index, name, code, active, refresh_interval, kml_file, map_type, start_time, end_time) values (1, 'Maratonul Olteniei/31km', 'maratonulolteniei31km', 't', 15, 'http://www.len.ro/activeTracker/maratonul-olteniei/maratonul-olteniei-scurt.kml', 'HYBRID', '2013-08-31 09:30', '2013-08-31 19:00');
+
+insert into event(event_index, name, code, active, refresh_interval, kml_file, map_type, start_time, end_time) values (1, 'Maratonul Olteniei/55km', 'maratonulolteniei55km', 't', 15, 'http://www.len.ro/activeTracker/maratonul-olteniei/maratonul-olteniei-lung.kml', 'HYBRID', '2013-08-31 09:30', '2013-08-31 19:00');

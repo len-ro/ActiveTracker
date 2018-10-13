@@ -1,0 +1,180 @@
+/* 
+ActiveTracker
+(c) 2013 len@len.ro
+Version: $Id: trackme.css,v 1.23 2013/10/21 14:29:44 len Exp $
+*/
+
+* { 
+    margin: 0; 
+}
+
+html, body, #map { 
+       height: 100%;
+}
+
+body {
+       font-family: Verdana;
+       font-size: 12px;
+       font-weight: normal;
+       }
+
+/* structure */
+
+#wrapper { 
+           left: 0px;
+           top: 45px;
+           bottom: 20px;
+           right: 0;
+           position: absolute;
+           }
+
+#content { 
+           top: 1px;
+           bottom: 0px;
+           overflow: auto;
+           position: absolute;
+           left: 0;
+           right: 0;
+           }
+ 
+#header { 
+          background-color: #ffc91b;
+          color: #4D4D4F;
+          height: 45px;
+          border-bottom: 1px solid grey;
+          }
+
+#map { 
+       width: 100%;
+       }
+
+#footer { 
+          bottom: 0; /* Sit it on the bottom */
+          right: 0;
+          left: 0;
+          position: absolute;
+          width: 100%; /* As wide as it's allowed */
+          color: #ffc91b;
+          background-color: #4D4D4F;
+          text-align: right;
+          }
+
+/* presentation */
+
+#title { 
+         text-align: left;
+         font-weight: normal;
+         font-size: 120%;
+         margin: 0;
+         padding: 0 0 0 3px;
+         border-bottom: 1px dashed #CCCCCC;
+         }
+
+#header a { 
+            text-decoration:none;
+            color: #4D4D4F;
+            font-weight: bold;
+            } 
+
+#header a:hover { 
+                  text-decoration:none;
+                  } 
+
+#category { 
+            padding: 0px 0px 1px 0px;
+            text-align: right;
+            font-weight: normal;
+            font-size: 12px;
+            font-family: Verdana;
+}
+
+#countdown { 
+             background-color: #000;
+             color: #fff;
+             border: 0px;
+}
+
+#autoTrack { 
+             margin-left: 25px;
+             }
+
+#replayControls { 
+           border: none;
+           padding: 10px;
+           background-color: #000;
+           opacity: .7;
+           border-radius: 5px; 
+           moz-border-radius: 5px; 
+           webkit-border-radius: 5px; 
+           border: 1px solid #FFFFFF;
+           margin-bottom: 10px;
+}
+
+#replayT { 
+           color: #fff;
+           font-size: 120%;
+           font-weight: bold;
+           padding-left: 10px;
+}
+
+.blockUI a{ 
+            font-weight: bold;
+            color:white;
+ }
+
+#status { 
+          background-color: #FFFFD4;
+          margin-right: 5px;
+          padding: 5px 10px 15px 10px;
+          border-radius: 5px; 
+          moz-border-radius: 5px; 
+          webkit-border-radius: 5px; 
+          border: 1px solid #0D0000;
+          opacity: .9;
+          overflow: auto;
+          max-height: 450px;
+}
+
+#status a { 
+            text-decoration: none;
+            color: #ffc91b;
+            font-size: 130%;
+            font-weight: bold;
+ }
+
+.statusLine { 
+              border-bottom: 1px dotted darkgrey;
+              font-size: 12px!important;
+              font-weight: bold!important;
+              margin-top: 5px;
+ }
+
+#statusHeader { 
+                font-size: 12px!important;
+                font-weight: bold!important;
+                border-bottom: 1px solid #000000;
+                white-space: nowrap;
+                }
+
+#statusMsg { 
+             width: 250px;
+             font-size: 11px;
+             margin-bottom: 5px;
+             border: 1px dotted;
+ }
+
+#statusMsg a{
+              font-size: 12px; 
+ }
+
+.btn-minimize { 
+                width: 20px;
+                height: 20px;
+                background-color: #F00;
+                float: right;
+                margin-right: 5px;
+                }
+
+.btn-minimize.btn-plus { 
+                         background-color: #0F0;
+                         }
